@@ -1,0 +1,13 @@
+registry:
+  # Plugin registry settings example
+  url: 'https://github.com/{name}/{repository}/releases/download/{tag}'
+  name: ''
+  repository: ''
+  tag: 'latest'
+logging:
+  # Setting the log level: CRITICAL, ERROR, WARNING, INFO, DEBUG
+  level: 'DEBUG'
+plugins:
+  # Packages to download from registry
+  - advance-plugin
+  - sample-plugin

@@ -1,0 +1,15 @@
+name: 'Sample Plugin'
+alias: 'sample-plugin'
+creator: 'wax911'
+runtime:
+  main: 'sample.py'
+  tests:
+    - 'tests/core.py'
+repository: 'https://github.com/wax911/sample-plugin'
+description: 'Sample plugin template'
+version: '0.0.2'
+requirements:
+  - name: 'PyYAML'
+    version: '5.3.1'
+  - name: 'pytz'
+    version: '2019.3'
